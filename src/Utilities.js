@@ -1,5 +1,5 @@
  export function Deletebot(id){
-    fetch(`http://localhost:5001/bots/${id}`,{
+    fetch(`https://phase-2-code-challenge-2.onrender.com/bots/${id}`,{
         method: "DELETE",
         headers: {
             "Content-Type": "application/json"
@@ -11,7 +11,7 @@
 }
 
 export function getbot(id){
-     fetch(`http://localhost:5001/bots/`,{
+     fetch(`https://phase-2-code-challenge-2.onrender.com/bots/`,{
     method: "GET",
     headers: {
       "Content-Type": "application/json"
@@ -20,7 +20,7 @@ export function getbot(id){
 }
 
 export function getBotById(id) {
-  return fetch(`http://localhost:5001/bots/${id}`, {
+  return fetch(`https://phase-2-code-challenge-2.onrender.com/bots/${id}`, {
       method: "GET",
       headers: {
           "Content-Type": "application/json"

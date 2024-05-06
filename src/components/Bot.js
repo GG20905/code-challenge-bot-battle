@@ -26,7 +26,7 @@ function Bot() {
     }, [params.id]);
 
     function goBack() {
-        navigate('/');
+        navigate('/code-challenge-bot-battle');
     }
 
     return (
@@ -46,7 +46,7 @@ function Bot() {
                     <button onClick={goBack} className="btn btn-sm btn-warning m-4 p-4">Go Back</button>
                 </div>
             ) : (
-                <p>Loading...</p>
+                <p>Unavailable</p>
             )}
         </div>
     );

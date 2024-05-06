@@ -12,7 +12,7 @@ const Displaybots = () => {
   useEffect(() => {
     const fetchBotProfiles = async () => {
       try {
-        const response = await fetch('http://localhost:5001/bots');
+        const response = await fetch('https://phase-2-code-challenge-2.onrender.com/bots/');
         if (!response.ok) {
           throw new Error('Failed to fetch bot profiles');
         }
@@ -43,7 +43,7 @@ const Displaybots = () => {
               <h5 className="border border-secondary col-6">{bot.bot_class}</h5>
               <Button handleClick={Deletebot} id={bot.id}>
                             <span>delete</span></Button>
-            <Link className='btn btn-primary btn-md mx-auto' to={`/bots/${bot.id}`}>View</Link>            
+            <Link className='btn btn-primary btn-md mx-auto' to={`/code-challenge-bot-battle/bots/${bot.id}`}>View</Link>            
             </div>
           </div>
         </div>

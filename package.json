@@ -1,7 +1,7 @@
 {
   "name": "bot-battle",
   "version": "0.1.0",
-  "homepage": "https://gg20905.github.io/code-challenge-bot-battle",
+  "homepage": "https://GG20905.github.io/code-challenge-bot-battle",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
